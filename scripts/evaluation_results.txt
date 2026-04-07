@@ -1,0 +1,40 @@
+{
+  "question": "What is the course code and the title of the course?",
+  "answer": "CS-3270: Intelligent Systems",
+  "correctness": 1.0,
+  "context_precision": 0.4,
+  "hallucination_score": 1.0,
+  "citation_accuracy": 1.0,
+  "semantic_similarity": 0.9753106236457825
+}
+
+{
+  "question": "What is the instructor's name?",
+  "answer": "Dr. Md Shirajum Munir",
+  "correctness": 1.0,
+  "context_precision": 0.2,
+  "hallucination_score": 1.0,
+  "citation_accuracy": 1.0,
+  "semantic_similarity": 0.9906924366950989
+}
+
+{
+  "question": "When is the exam 3 for the course?",
+  "answer": "Wednesday, May 6, 12:00-2:00 PM (In person and closed book)",
+  "correctness": 1.0,
+  "context_precision": 0.4,
+  "hallucination_score": 1.0,
+  "citation_accuracy": 1.0,
+  "semantic_similarity": 0.8614050149917603
+}
+
+{
+  "question": "Where is the office located?",
+  "answer": "Technology Learning Center (TLC) 2248, 210 W Georgia Dr, Carrollton, GA 30117",
+  "correctness": 1.0,
+  "context_precision": 0.2,
+  "hallucination_score": 1.0,
+  "citation_accuracy": 1.0,
+  "semantic_similarity": 1.0
+}
+

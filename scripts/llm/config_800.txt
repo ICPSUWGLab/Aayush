@@ -1,0 +1,83 @@
+Q1: What is the course code and title of the class described in the syllabus?
+A1: The information about the course is not explicitly provided in the syllabus. However, based on the content, it appears to be a course on Intelligent Systems.
+
+A possible answer for the course code could be "ISYS". This is an educated guess based on the topic of Intelligent Systems.
+
+Q2: Who is the instructor for the Intelligent Systems course?
+A2: Unfortunately, the provided context does not mention the instructor for the Intelligent Systems course, CS-3270.
+
+Q3: What is the email address of the instructor for the course?
+A3: Unfortunately, I am unable to verify the instructors email.
+
+Q4: Where is the instructor’s office located?
+A4: The location of the instructor's office is not mentioned in the provided context.
+
+Q5: What are the in-person office hours for the instructor?
+A5: According to the course schedule, the instructor's in-person office hours is Wednesday, Naw  [NA Wednesday], May 6, 12:00-02:00 PM, in close location.
+
+Q6: What are the scheduled meeting days and times for the class?
+A6: However, since the.Context has various different schedules,n try to just find a correlation.
+
+Please note that the class schedule can change based on students' progress and other circumstances (as mentioned in the initial schedule). The detailed schedule below is an initial schedule and plan for assignments and exams, and the schedule is subject to-change based on progress and other constraints.
+
+Q7: In which classroom location are the lectures held?
+A7: This information is not provided in the given context.
+
+Q8: What main topics are emphasized in the Intelligent Systems course description?
+A8: The main topics emphasized in the Intelligent Systems course description are:
+
+1. Heuristic Programming:  Given priority emphasis
+2. Production Systems
+3. Neural Networks
+4. Agents
+5. Social implications of computing
+6. Professional ethics and responsibilities
+
+Q9: What prerequisite courses are required to enroll in CS-3270?
+A9: There is no information provided in the given context regarding the prerequisite courses for CS-3270.
+
+Q10: Is there a mandatory textbook required for this course?
+A10: There is no mention of a mandatory textbook required for this course.
+
+Q11: Name one optional book recommended in the syllabus.
+A11: The provided context does not explicitly mention a list of books to be studied in the course. However, it provides information about Cs 3270: Intelligent Systems (Section 01). This is the course's home in Moodle, where you can find course content.
+
+In the link: https://courses.cs.westga.edu/course/view.php?id=1234 
+
+Unfortunately there are no optional books mentioned.
+
+Q12: What percentage of the final grade is allocated to assignments?
+A12: The total percentage is not given separately. But in the given context for a different part we see the percentages are given as:
+
+- 15% for Final Group Project Demo Presentation and Submision
+- 3% for Class Activities (This is divided 5 parts, each worth 1% or 1 x 3% = 3%. Then divided by five so that's a .6%& 4%.
+
+Q13: How many exams are conducted in the course and what percentage do they contribute to the final grade?
+A13: There are 2 exams in the course: 
+
+1. Exam 1  -  Date: February 25, 2026, Time: 10:30 AM (In person and closed book)
+2. Exam 2  -  Date: April 5, 2026, Time: 11:55 PM
+
+Each exam contributes 17% of the final grade. Therefore, 2 * 17% = 34% of the final grade is contributed by the exams.
+
+Q14: What percentage of the final grade is the final group project demo presentation and submission worth?
+A14: 15% of the final grade is the final group project demo presentation and submission worth.
+
+Q15: What happens if a student misses one of the sudden in-class activities?
+A15: The announcement for the final Group Project Propoals Presentation is scheduled on Wednesday, March 2, 2022, 10:30 AM (in person and closed book), thus occurring in class.  And the final group project demo and submission for the class CS-3270 is set on Monday, April 6, 2026, 10:00 AM and Wednesday, April 7, 2026, 10:30 AM (In person).
+
+Q16: When is Assignment 1 due according to the syllabus schedule?
+A16: Error: {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+Q17: What major machine learning topic is introduced in Week 9 of the course?
+A17: Error: {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+Q18: When does Spring Break occur during the semester?
+A18: Error: {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+Q19: What topics related to intelligent agents are covered in Week 15?
+A19: Error: {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+Q20: What is the policy regarding late submission of assignments?
+A20: Error: {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+

@@ -1,0 +1,79 @@
+Q1: What is the course code and title of the class described in the syllabus?
+A1: Unfortunately, the provided text does not mention the course code and title of the class. However, it does mention that the class is part of the Big Six college experiences to be successful in both CMCS course work and degree programs named "hop"
+
+Q2: Who is the instructor for the Intelligent Systems course?
+A2: The provided text does not mention who the instructor for the Intelligent Systems course is. However, the text is related to University of West Georgia (UWG) course information and policies, but it does not directly mention specific courses like Intelligent Systems.
+
+Q3: What is the email address of the instructor for the course?
+A3: The format of the email address for the course is not provided explicitly, but it is mentioned in the context that the email should go through the instructor's university email account. The instructor's email address is not directly stated.
+
+Q4: Where is the instructor’s office located?
+A4: It's not mentioned in the provided context where the instructor's office is located.
+
+Q5: What are the in-person office hours for the instructor?
+A5: The in-person office hours for the instructor are not specified in the provided context. However, it is mentioned that the instructor will be available for office hours on May 6, a Wednesday, from 12:00 PM to 2:00 PM.
+
+Q6: What are the scheduled meeting days and times for the class?
+A6: The scheduled meeting days and times are as follows:
+
+- Monday, 11:05 AM (E P, and departmental exams)
+- There are no further specified meeting times for the class.
+
+Also noted, all schedules follow Eastern Time.
+
+Q7: In which classroom location are the lectures held?
+A7: The Technology Learning Center (TLC) 2248, 210 WG Georgia Drive, Carrollton, GA 30117
+
+Q8: What main topics are emphasized in the Intelligent Systems course description?
+A8: In the Intelligent Systems course description, the main topics emphasized appear to be:
+
+1.  A n a l y t i c s , D a t a S c i e n c e , & A r t i ﬁ c i a l I n t e l l i g e n c e : S y s t e m s f o r D e c i s i o n S u p p o r t
+2.  Chapter 25: S2 which possibly has a subtopic on S y s t e m s f o r D e c i s i o n S u p p o r t which combines the Physics of the systems for intelligent systems.
+3.  The Chapter was authored By : R a m e s h S h a r d a , a d u r s u n D e l e n , a n d E f r a i m T u r b a n and was published in 2019.
+
+More details on these can be found inside the given text: Intelligent Systems
+
+Q9: What prerequisite courses are required to enroll in CS-3270?
+A9: There is no information in the provided context about the prerequisite courses required to enroll in CS-3270. However, the title of the course "CS 3270: Intelligent Systems [S25]" suggests that it may be part of a curriculum that builds on foundational computer science courses, possibly in the areas of programming, algorithms, and data structures.
+
+Q10: Is there a mandatory textbook required for this course?
+A10: No, there is no mention of a mandatory textbook in the provided context.
+
+Q11: Name one optional book recommended in the syllabus.
+A11: I couldn't find any information about recommended books in the syllabus.
+
+Q12: What percentage of the final grade is allocated to assignments?
+A12: 60%
+
+Q13: How many exams are conducted in the course and what percentage do they contribute to the final grade?
+A13: There are 3 exams conducted in the course. Here's the information about the exams: 
+
+1. Exam 1 [Format will be written and/or MCQ. Detailed instructions will be provided in Module based on course progress.] 
+   - Conducted on: Wednesday, February 25, 2026, 10:30 AM (In person and closed book)
+
+2. Exam 2 [Exam format will be written and/or MCQ. Detailed instructions will be provided in Module based on course progress.] 
+   - Conducted on: Wednesday, April 8, 2026, 10:30 AM (In person and closed book)
+
+Each exam contributes 13% to the final grade.
+
+Q14: What percentage of the final grade is the final group project demo presentation and submission worth?
+A14: 9 %  of  the  final  grade  is  the  final  group  project  demo  presentation  and  submission  worth.
+
+Q15: What happens if a student misses one of the sudden in-class activities?
+A15: There is no information about what happens if a student misses one of the sudden in-class activities.
+
+Q16: When is Assignment 1 due according to the syllabus schedule?
+A16: The schedule only mentions the following no information about Assignment 1 due to be released. Thus the information is 'Not Available.'
+
+Q17: What major machine learning topic is introduced in Week 9 of the course?
+A17: Error: {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+Q18: When does Spring Break occur during the semester?
+A18: Error: {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+Q19: What topics related to intelligent agents are covered in Week 15?
+A19: Error: {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+Q20: What is the policy regarding late submission of assignments?
+A20: Error: {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+

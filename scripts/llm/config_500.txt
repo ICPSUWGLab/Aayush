@@ -1,0 +1,79 @@
+Q1: What is the course code and title of the class described in the syllabus?
+A1: I do not find the specific course code and title in the provided syllabus description.
+
+Q2: Who is the instructor for the Intelligent Systems course?
+A2: Unfortunately I wasn't able to find that information in the provided context.
+
+Q3: What is the email address of the instructor for the course?
+A3: The email address of the instructor for the course isn't explicitly mentioned in the provided context. However, it mentions: 
+
+"The official communication (located on page 41) method is through your university email account." 
+
+So, students should use their university email account (UWG email) to contact the instructor.
+
+Q4: Where is the instructor’s office located?
+A4: The instructor's office location is not mentioned in the provided text.
+
+Q5: What are the in-person office hours for the instructor?
+A5: NA Wednesday, May 6, 12:00 PM - 2:00 PM (in person and closed book).
+
+Q6: What are the scheduled meeting days and times for the class?
+A6: Unfortunately, that information is not provided in the given context. The given context contains details about the instructor and course information, attendance policy, meeting topics, and a flipped class schedule with each week's main subject material, however it does not mention specific meeting days and times.
+
+Q7: In which classroom location are the lectures held?
+A7: This information is not provided in the given context. The context provides general university information, rules, code of conduct, and a syllabus for a course (Legal and Privacy Issues of Intelligent Technologies), but it does not mention a specific classroom location.
+
+Q8: What main topics are emphasized in the Intelligent Systems course description?
+A8: The main topics emphasized in the Intelligent Systems course description are:
+
+1. Intelligent Systems
+2. Analytics
+3. Data Science
+4. Artificial Intelligence: Systems for Decision Support.
+
+Q9: What prerequisite courses are required to enroll in CS-3270?
+A9: Unfortunately, I was not able to identify the prerequisite courses required for CS-3270 through the provided context.
+
+Q10: Is there a mandatory textbook required for this course?
+A10: There is no mention of a mandatory textbook in the provided context.
+
+Q11: Name one optional book recommended in the syllabus.
+A11: There is no information available in the provided context about optional books recommended in the syllabus.
+
+Q12: What percentage of the final grade is allocated to assignments?
+A12: Assignments Task are mentioned as 40%  (C S - 3270) of the ﬁnal grade but in section it has only some particular percentages to assignment 1,2,3,4,5 and to a final project (39%), so 38.5% and 39% are assigned to assignments in total %-age.
+
+Q13: How many exams are conducted in the course and what percentage do they contribute to the final grade?
+A13: The two exams that are conducted in the course are Exam 1 and Exam 2. 
+
+Exam 1 will be worth 15% of the final grade. However it is stated in the Exam instructions for Exam 1 that it is the first on of two exams to be held, another one is in place, this one is called Exam 2. Exam 2's Student(instruction within the course) version makes clear they will be worth 13% of the final grade each.
+
+Q14: What percentage of the final grade is the final group project demo presentation and submission worth?
+A14: 39% of the final grade is the final group project demo presentation and submission worth.
+
+Q15: What happens if a student misses one of the sudden in-class activities?
+A15: The in-class activities appear to have instructions that are provided base on course progress, and students are advised to check Moodle for announcements. There is no specific mention of what happens in case a student misses one of the in-class activities, however, the following passage is present:
+
+"Any changes will be noted via Moodle (http://courses.cs.wesgatedu/course/view.php? id=1234) announcements."
+
+This might imply that students should stay updated on the course announcements in Moodle for any adjustments or changes.
+
+Q16: When is Assignment 1 due according to the syllabus schedule?
+A16: According to the syllabus schedule, there are several Assignments mentioned. However, the due date for Assignment 1 is not clearly specified. 
+
+However, according to the syllabus:
+"Exam 1: Week 8: Feb 28 – Mar 6" and "Exam 1 Syllabus Review and Exam Preparation: From Week 1 to Week 5" 
+Also, it's mentioned that Each week will have specific assignment related details like the one the following ` E x a m   1   W e e k   8 :   F e b   2 8 –   M a r  6`
+
+Q17: What major machine learning topic is introduced in Week 9 of the course?
+A17: Introduction to Neural Networks for Intelligent Systems.
+
+Q18: When does Spring Break occur during the semester?
+A18: The Spring Break in the given course schedule is from March 16 to March 20.
+
+Q19: What topics related to intelligent agents are covered in Week 15?
+A19: The information provided does not have Week 15. It only includes prevalent, high-interested events: the topic presentations.
+
+Q20: What is the policy regarding late submission of assignments?
+A20: There is no explicit policy detailed in the given context regarding late submission of assignments. However, the document does provide a link for important dates (drop-add [Jan 10-16], with withdrawal all last day [Mar 25]), and it recommends visiting the Spring 2026 calendar (https://www.westga.edu/student-services/registrar/term-spring_2026_sessions_calendar.php) for information on deadlines. This could imply that students are expected to be aware of their submission deadlines during the semester and adhere to them in order to avoid withdrawals or incompletes, which are mentioned as drop-add dates, but no late penalties specified.
+

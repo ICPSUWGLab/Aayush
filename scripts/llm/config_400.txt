@@ -1,0 +1,68 @@
+Q1: What is the course code and title of the class described in the syllabus?
+A1: The course code and title of the class described in the syllabus are not explicitly mentioned in the provided text. However, based on the content and the dates mentioned, it appears that the class may be related to the topic of "Legal and Privacy Issues of Intelligent Technologies".
+
+Q2: Who is the instructor for the Intelligent Systems course?
+A2: Unfortunately, the context doesn't specify the instructor of the Intelligent Systems course (CS 3270), directly. However, we can gather that it's likely taught by a faculty member, given the course's presence within the Computer Science department. To find the instructor, I would normally recommend searching on the West Georgia university's course list or searching through online course listings and faculty profiles, but it is not provided here.
+
+Q3: What is the email address of the instructor for the course?
+A3: Unfortunately, the instructor's email address is not provided in the given context. However, the official communication method is mentioned to be through the student's university email account, which suggests that students should check their university email for any course-related information and communication from the instructor.
+
+Q4: Where is the instructor’s office located?
+A4: I'm unable to determine the location of the instructor's office as no such information is available within the provided text.
+
+Q5: What are the in-person office hours for the instructor?
+A5: There are no specific in-person office hours mentioned for the instructor. However, it is mentioned that some activities are in-person and closed book, such as Exam 1 and possibly some other items.
+
+Q6: What are the scheduled meeting days and times for the class?
+A6: Unfortunately I cannot verify the scheduled meeting days and times for the class.
+
+Q7: In which classroom location are the lectures held?
+A7: This information is not provided within the given context.
+
+Q8: What main topics are emphasized in the Intelligent Systems course description?
+A8: The Intelligent Systems course description emphasizes the following main topics:
+
+1. Analytics
+2. Data Science
+3. Artificial Intelligence
+
+Q9: What prerequisite courses are required to enroll in CS-3270?
+A9: There is no information in the provided context stating the prerequisite courses for CS-3270.
+
+Q10: Is there a mandatory textbook required for this course?
+A10: There's no explicit mention of a mandatory textbook in the provided context.
+
+Q11: Name one optional book recommended in the syllabus.
+A11: There is no mention of any optional books in the provided syllabus.
+
+Q12: What percentage of the final grade is allocated to assignments?
+A12: That information is not mentioned in the provided snippet but for assignment 1 it is: "See the assignments section for more details." Which may contain the grades for the coming assignments whose Gestaltung for Whole Course resembles: 9 % (e.g Assignment 4)
+
+Q13: How many exams are conducted in the course and what percentage do they contribute to the final grade?
+A13: Two exams are conducted in the course: Exam 1 and Exam 2. 
+
+Exam 1 contributes 10% (50% * 2/3) * 30% for  Exam sic % to the final grade. (Exam format will be written) however the weightage isn't explicitly given for Exam 1.
+
+Exam 2 contributes 39% * 13% = 5.07 % ( Exam format will be written)
+
+Q14: What percentage of the final grade is the final group project demo presentation and submission worth?
+A14: The final group project demo presentation and submission is worth 39% of the final grade.
+
+Q15: What happens if a student misses one of the sudden in-class activities?
+A15: Unfortunately, the provided context does not mention any information about sudden in-class activities that a student can miss.
+
+Q16: When is Assignment 1 due according to the syllabus schedule?
+A16: According to the syllabus schedule, there is no information on the specific assignment identification as 'Assignment 1'. However it does mention Assignment 3 which is due in Week 3.
+
+Q17: What major machine learning topic is introduced in Week 9 of the course?
+A17: Error: {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+Q18: When does Spring Break occur during the semester?
+A18: Error: {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+Q19: What topics related to intelligent agents are covered in Week 15?
+A19: Error: {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+Q20: What is the policy regarding late submission of assignments?
+A20: Error: {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+

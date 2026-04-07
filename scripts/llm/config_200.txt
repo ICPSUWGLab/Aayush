@@ -1,0 +1,82 @@
+Q1: What is the course code and title of the class described in the syllabus?
+A1: Unfortunately, the provided context does not include the course code or title.
+
+Q2: Who is the instructor for the Intelligent Systems course?
+A2: The information about the instructor of the Intelligent Systems course is not provided in the given context. However, it does mention the Intelligent Systems course and the Course Management System, but it does not mention the instructor's name in the provided text.
+
+Q3: What is the email address of the instructor for the course?
+A3: cas@westga.edu.
+
+Q4: Where is the instructor’s office located?
+A4: The instructor's office is located at the Technology Learning Center (TLC), which has an address of 2248, 210 W Georgia Dr, Carrollton, GA 30117.
+
+Q5: What are the in-person office hours for the instructor?
+A5: The in-person office hours for the instructor are not explicitly mentioned. However, in-person office hours are mentioned as 12:00 - 2:00 PM on "Wednesdays" and also a mention that some appointments may take place in closed book timings.
+
+Q6: What are the scheduled meeting days and times for the class?
+A6: There doesn't appear to be a table or a specific section that lists the meeting days and times for the class. However, there is information about several meetings, which I will list below based on their names and descriptions:
+
+* 11: 5 5 P M: This appears to be the start or end time for most meetings.
+* Wednesday, May 6, 12:00 - 2:00 PM: This is a scheduled meeting day and time.
+
+Please note that other events mentioned (like regular course lectures) are not explicitly mentioned along with days and times.
+
+Q7: In which classroom location are the lectures held?
+A7: The provided text does not mention the classroom location where the lectures are held. It only mentions tutoring and academic support services provided by various entities, such as the CAS, UWGO, and the University Writing Center.
+
+Q8: What main topics are emphasized in the Intelligent Systems course description?
+A8: The main topics emphasized in the Intelligent Systems course description are:
+
+1. Intelligent Systems
+
+Q9: What prerequisite courses are required to enroll in CS-3270?
+A9: The text does not explicitly state the prerequisite courses for CS-3270. However, it does mention that the course information is located in the Module (Computer Science Content Management System), which should provide the necessary details and content for the course.
+
+Q10: Is there a mandatory textbook required for this course?
+A10: There isn't a specific mention of a mandatory textbook required for this course in the provided context.
+
+Q11: Name one optional book recommended in the syllabus.
+A11: There is no optional book recommended in the provided syllabus.
+
+Q12: What percentage of the final grade is allocated to assignments?
+A12: 90% - 100%
+
+Q13: How many exams are conducted in the course and what percentage do they contribute to the final grade?
+A13: There is only 1 exam conducted in the course. 
+
+It contributes 30% to the final grade.
+
+Q14: What percentage of the final grade is the final group project demo presentation and submission worth?
+A14: 90% - 100%
+
+Q15: What happens if a student misses one of the sudden in-class activities?
+A15: There's no information about what happens if a student misses one of the sudden in-class activities. The given context only includes class schedules, examination dates, and class topics.
+
+Q16: When is Assignment 1 due according to the syllabus schedule?
+A16: The syllabus schedule wasn't explicitly provided, however, the context had mentioned "W e e k 5 E x a m 1 W e e k 8 : F e b 2 8 – M a r 6 and E x a m 3 W e e k 1 7 : M a y 2 – M a y 8". 
+
+As we're looking for the due date of Assignment 1, let's identify it, according to the context that listed several items ('1 t o W e e k 5', and within '1 W e e k 5' an assignment "A s s i g n m e n t 3 W e e k 9 : M a r 7 - M a r 1 3") 
+
+Hence, If we follow this list,
+ - Week 5 includes 'A s s i g n m e n t 3'.
+- So both are not same, I will list another assignment present in 'Week 1'.
+ - 1 t o W e e k 5 E x a m 1 W e e k 8 : F e b 2 8 – M a r 6 D e c i s i o n T r e e f o r I n t e l l i g e n t S y s t e m s R e g r e s s i o n M o d e l s f o r I n t e l l i g e n t S y s t e m s A s s i g n m e n t 3 W e e k 9 : M a r 7 - M a r 1 3 I n t r o t o N e u r a l N e t w o r k s f o r I n t e l l i g e n t S y s t e m s C o n v o l u t i o n N e u r a l N e t w o r k C N N W o r k s'
+ - it indicates 'Assignment 2' is in the last Week 9. Unfortunately Assignment 1 wasn't there.
+
+  - It asks to A s s i g n m e n t 3 W e e k 9
+Replacing it with A s s i g n m e n t 1 week        
+Incorrect it says W e e k 4 = Analyze a Natural Language Processing Problem
+ Its seems all possible times '1 – (052117 to 5/2/2017)' Skipping from 3 is analyzed forwards  "A s s i g n m e n t 1 A n a l y z e a N a t u r a l L a n g u a g e P r o c e s s i n g P r o b l e m ( N L P )"
+
+Q17: What major machine learning topic is introduced in Week 9 of the course?
+A17: Error: {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+Q18: When does Spring Break occur during the semester?
+A18: Error: {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+Q19: What topics related to intelligent agents are covered in Week 15?
+A19: Error: {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+Q20: What is the policy regarding late submission of assignments?
+A20: Error: {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+

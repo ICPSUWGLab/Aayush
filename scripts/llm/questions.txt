@@ -1,0 +1,21 @@
+What is the course code and title of the class described in the syllabus?
+Who is the instructor for the Intelligent Systems course?
+What is the email address of the instructor for the course?
+Where is the instructor’s office located?
+What are the in-person office hours for the instructor?
+What are the scheduled meeting days and times for the class?
+In which classroom location are the lectures held?
+What main topics are emphasized in the Intelligent Systems course description?
+What prerequisite courses are required to enroll in CS-3270?
+Is there a mandatory textbook required for this course?
+Name one optional book recommended in the syllabus.
+What percentage of the final grade is allocated to assignments?
+How many exams are conducted in the course and what percentage do they contribute to the final grade?
+What percentage of the final grade is the final group project demo presentation and submission worth?
+What happens if a student misses one of the sudden in-class activities?
+When is Assignment 1 due according to the syllabus schedule?
+What major machine learning topic is introduced in Week 9 of the course?
+When does Spring Break occur during the semester?
+What topics related to intelligent agents are covered in Week 15?
+What is the policy regarding late submission of assignments?
+
