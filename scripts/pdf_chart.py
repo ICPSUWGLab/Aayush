@@ -5,12 +5,10 @@ import faiss
 import numpy as np
 import requests
 import pdfplumber
-from sentence_transformers import SentenceTransformer
+import matplotlib.pyplot as plt
 
-from rag_evaluation import (
-    evaluate_rag_advanced,
-    summarize_advanced
-)
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
 
 # -------------------------------
 # 🔹 Embedding Model
@@ -19,17 +17,15 @@ embedding_model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 
 # -------------------------------
-# 🔹 PDF PROCESSING (FONT-AWARE)
+# 🔹 PDF PROCESSING
 # -------------------------------
 def extract_text_with_headings(pdf_path):
     data = []
-
     current_section = {"heading": "Document", "content": ""}
     last_font_size = None
 
     with pdfplumber.open(pdf_path) as pdf:
-        for page_num, page in enumerate(pdf.pages):
-
+        for page in pdf.pages:
             words = page.extract_words(extra_attrs=["size"])
 
             for word in words:
@@ -41,15 +37,11 @@ def extract_text_with_headings(pdf_path):
                 if not text:
                     continue
 
-                if last_font_size is not None and font_size > last_font_size + 1:
+                if last_font_size and font_size > last_font_size + 1:
                     if current_section["content"]:
                         data.append(current_section)
 
-                    current_section = {
-                        "heading": text,
-                        "content": ""
-                    }
-
+                    current_section = {"heading": text, "content": ""}
                 else:
                     current_section["content"] += text + " "
 
@@ -66,7 +58,6 @@ def extract_text_with_headings(pdf_path):
 # -------------------------------
 def chunk_by_headings(data, max_chunk_size=500):
     chunks = []
-
     for section in data:
         heading = section["heading"]
         words = section["content"].split()
@@ -87,11 +78,8 @@ def generate_embeddings(chunks):
 
 def store_in_faiss(embeddings):
     embeddings = np.array(embeddings)
-    dimension = embeddings.shape[1]
-
-    index = faiss.IndexFlatIP(dimension)
+    index = faiss.IndexFlatIP(embeddings.shape[1])
     index.add(embeddings)
-
     return index
 
 
@@ -102,7 +90,7 @@ def query_faiss(index, query, chunks, k=5):
 
 
 # -------------------------------
-# 🔹 STRUCTURED ANSWER
+# 🔹 LLM ANSWER
 # -------------------------------
 def get_structured_answer(context_chunks, query, hf_api_key):
     API_URL = "https://router.huggingface.co/v1/chat/completions"
@@ -112,7 +100,7 @@ def get_structured_answer(context_chunks, query, hf_api_key):
     )
 
     prompt = f"""
-You MUST return ONLY valid JSON.
+Return ONLY valid JSON.
 
 Context:
 {context_text}
@@ -120,11 +108,11 @@ Context:
 Question:
 {query}
 
-Return format:
+Format:
 {{
     "answer": "...",
     "citations": [0,1],
-    "claims": ["fact1", "fact2"]
+    "claims": ["fact1"]
 }}
 """
 
@@ -145,26 +133,94 @@ Return format:
 
 
 # -------------------------------
-# 🔹 SAFE JSON PARSING
+# 🔹 SAFE JSON
 # -------------------------------
 def safe_parse_json(text):
     try:
         data = json.loads(text)
     except:
-        match = re.search(r"\{.*?\}", text, re.DOTALL)
-        if match:
-            try:
-                data = json.loads(match.group())
-            except:
-                data = {}
-        else:
-            data = {}
+        match = re.search(r"\{.*\}", text, re.DOTALL)
+        data = json.loads(match.group()) if match else {}
 
     return {
         "answer": data.get("answer", ""),
-        "citations": data.get("citation", []),
+        "citations": data.get("citations", []),  # ✅ fixed bug
         "claims": data.get("claims", [])
     }
+
+
+# -------------------------------
+# 🔹 METRICS
+# -------------------------------
+def exact_match(pred, truth):
+    return int(pred.strip().lower() == truth.strip().lower())
+
+
+def f1_score(pred, truth):
+    p = pred.lower().split()
+    t = truth.lower().split()
+
+    common = set(p) & set(t)
+    if not common:
+        return 0
+
+    precision = len(common) / len(p)
+    recall = len(common) / len(t)
+
+    return 2 * precision * recall / (precision + recall)
+
+
+def similarity(pred, truth):
+    emb1 = embedding_model.encode([pred])
+    emb2 = embedding_model.encode([truth])
+    return cosine_similarity(emb1, emb2)[0][0]
+
+
+# -------------------------------
+# 🔹 EVALUATION + CHART
+# -------------------------------
+def evaluate_and_plot(index, chunks, qa_pairs, hf_api_key):
+    scores = []
+
+    for q, truth in qa_pairs:
+        retrieved = query_faiss(index, q, chunks)
+        raw = get_structured_answer(retrieved, q, hf_api_key)
+        parsed = safe_parse_json(raw)
+
+        pred = parsed["answer"]
+
+        scores.append({
+            "question": q,
+            "EM": exact_match(pred, truth),
+            "F1": f1_score(pred, truth),
+            "SIM": similarity(pred, truth)
+        })
+
+        print(f"\nQ: {q}")
+        print(f"Pred: {pred}")
+        print(f"Truth: {truth}")
+
+    # ---- Plot ----
+    labels = [f"Q{i+1}" for i in range(len(scores))]
+    em = [s["EM"] for s in scores]
+    f1 = [s["F1"] for s in scores]
+    sim = [s["SIM"] for s in scores]
+
+    x = np.arange(len(scores))
+    width = 0.25
+
+    plt.figure(figsize=(10, 5))
+    plt.bar(x - width, em, width, label="Exact Match")
+    plt.bar(x, f1, width, label="F1 Score")
+    plt.bar(x + width, sim, width, label="Similarity")
+
+    plt.xticks(x, labels)
+    plt.ylabel("Score")
+    plt.title("RAG Evaluation")
+    plt.legend()
+
+    plt.show()
+    plt.savefig("chart.png")
 
 
 # -------------------------------
@@ -175,63 +231,27 @@ def main():
     hf_api_key = os.getenv("HF_API_TOKEN")
 
     if not hf_api_key:
-        raise ValueError("Set HF_API_TOKEN environment variable")
+        raise ValueError("Set HF_API_TOKEN")
 
-    print("Processing PDF with pdfplumber...")
+    print("Processing PDF...")
     data = extract_text_with_headings(pdf_path)
 
     chunks = chunk_by_headings(data)
-    print(f"\nTotal chunks: {len(chunks)}")
-
     embeddings = generate_embeddings(chunks)
     index = store_in_faiss(embeddings)
 
-    mode = input("\nChoose mode: [1] Chat  [2] Evaluate : ")
+    qa_pairs = [
+        ("What is the course code and title?", "CS-3270: Intelligent Systems"),
+        ("Who is the instructor?", "Dr. Md Shirajum Munir"),
+        ("What is the instructor's email?", "mmunir@westga.edu"),
+        ("When is exam 3?", "Wednesday, May 6, 12:00-2:00 PM (In person and closed book)"),
+        ("When is exam 2?", "April 08, 2026, Wednesday 10:30 AM (In person and closed book)"),
+        ("When is exam 1?", "February 25, 2026, Wednesday 10:30 AM (In person and closed book)"),
+        ("How much does each exam weigh?", "13%"),
+        ("Where is the instructor's office located?", "Technology Learning Center (TLC) 2248, 210 W Georgia Dr, Carrollton, GA 30117"),
+    ]
 
-    if mode == "2":
-        qa_pairs = [
-            ("What is the course code and title?", "CS-3270: Intelligent Systems"),
-            ("Who is the instructor?", "Dr. Md Shirajum Munir"),
-            ("What is the instructor's email?", "mmunir@westga.edu"),
-            ("When is exam 3?", "Wednesday, May 6, 12:00-2:00 PM (In person and closed book)"),
-            ("When is exam 2?", "April 08, 2026, Wednesday 10:30 AM (In person and closed book)"),
-            ("When is exam 1?", "February 25, 2026, Wednesday 10:30 AM (In person and closed book)"),
-            ("How much does each exam weigh?", "13%"),
-            ("Where is the instructor's office located?", "Technology Learning Center (TLC) 2248, 210 W Georgia Dr, Carrollton, GA 30117"),
-        ]
-        
-
-        results = evaluate_rag_advanced(
-            index=index,
-            chunks=chunks,
-            qa_pairs=qa_pairs,
-            hf_api_key=hf_api_key,
-            query_fn=query_faiss
-        )
-
-        summarize_advanced(results)
-        with open("evaluation_results.txt", "w") as f:
-            for r in results:
-                f.write(json.dumps(r, indent=2) + "\n\n")
-
-    else:
-        while True:
-            query = input("\nEnter your question: ")
-
-            if query.lower() in ["exit", "quit"]:
-                break
-
-            retrieved_chunks = query_faiss(index, query, chunks)
-
-            raw_output = get_structured_answer(
-                retrieved_chunks,
-                query,
-                hf_api_key
-            )
-
-            parsed = safe_parse_json(raw_output)
-
-            print("Answer:", parsed.get("answer", "⚠️ No answer"))
+    evaluate_and_plot(index, chunks, qa_pairs, hf_api_key)
 
 
 if __name__ == "__main__":

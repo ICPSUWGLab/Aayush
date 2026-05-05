@@ -1,0 +1,50 @@
+{
+  "question": "What is the course code?",
+  "answer": "CS-3270",
+  "correctness": 0.0,
+  "context_precision": 0.4,
+  "hallucination_score": 1.0,
+  "citation_accuracy": 1.0,
+  "semantic_similarity": 0.09098131209611893
+}
+
+{
+  "question": "What is westga.edu email?",
+  "answer": "mmunir@westga.edu",
+  "correctness": 1.0,
+  "context_precision": 0.2,
+  "hallucination_score": 1.0,
+  "citation_accuracy": 1.0,
+  "semantic_similarity": 0.29845643043518066
+}
+
+{
+  "question": "When is the exam 3 for the course?",
+  "answer": "May 6, 12:00-2:00 PM",
+  "correctness": 6.0,
+  "context_precision": 0.2,
+  "hallucination_score": 1.0,
+  "citation_accuracy": 1.0,
+  "semantic_similarity": 0.9597894549369812
+}
+
+{
+  "question": "Where is the office located?",
+  "answer": "Technology Learning Center (TLC) 2248, 210 West Georgia Dr, Carrollton, GA 30117",
+  "correctness": 1.0,
+  "context_precision": 0.2,
+  "hallucination_score": 1.0,
+  "citation_accuracy": 1.0,
+  "semantic_similarity": 0.9970588684082031
+}
+
+{
+  "question": "What is the description of Intelligent System course?",
+  "answer": "Computing, Analytics, and Modeling Intelligent Systems",
+  "correctness": 0.8,
+  "context_precision": 0.2,
+  "hallucination_score": 1.0,
+  "citation_accuracy": 1.0,
+  "semantic_similarity": 0.3319014310836792
+}
+
